@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    background-color: #D0D0D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content {
+    width: 100%;
+    max-width: 450px;
+    background-color: #2c2f35;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+
+}
+
+.form-content h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.form-content h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #04BD7D;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.campo-entrada {
+    background-color: #515966;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none ;
+    padding: 20px 20px ;
+    color: #ffffff;
+    text-align: left;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+
+}
+
+.campo-entrada i {
+    margin-left: 15px;
+    color: #04BD7D;
+}
+
+form p {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 13px;
+}
+
+form p a {
+    color: #04BD7D;
+    margin-left: 5px;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones button {
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: #04BD7D;
+    color: #FFFFFF;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 2s;
+}
+
+
+
+.grupo-Inputs {
+    height: 250px;
+}
+
+.botones button.disable {
+    background-color: #EAEAEA;
+    color: #2c2f35;
+
+}
+
+
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    
+    
+}
+.correcto {
+    background-color: rgb(74, 185, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+    margin-top: 2rem;
+    border-radius: 2rem;
+
+}
+
+.formato-registro {
+    width: 50%;
+    max-width: 50%;
+    background-color: #2c2f35;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.formato-registro h1 {
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.formato-registro h1::after {
+    content:'';
+    width: 30px;
+    height: 5px;
+    border-radius: 3px;
+    background: blue ;
+    position: absolute;
+    bottom: -12px ;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.infoUsuario {
+    background-color: #515966;
+    margin: 15px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.infoUsuario {
+    height: 60px ;
+    
+}
+
+.campo_label {
+    margin-left: 1rem;
+    color: #04BD7D;
+}
+
+.btnGuardarDatos{
+    width: 100%;
+    font-size: 16px;
+    background-color: #08a56e;
+    color: #FFFFFF;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 2s;
+}
