@@ -49,7 +49,10 @@ https://cris-san.github.io/FormularioLoginRegistro/
 ## 📫 Contacto
 
 🌐 LinkedIn: [Yuber Cristian Sánchez Ospina](https://www.linkedin.com/in/yubercristiansanchezospina/)
+
 🐙 GitHub: [Cris-San](https://github.com/Cris-San)
+
 ✉️ Email: cris629.cso@gmail.com
 
 
+### 📌 Si te ha gustado este proyecto, no dudes en dejar una ⭐ en GitHub. 🚀
